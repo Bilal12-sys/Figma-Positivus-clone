@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+
+.logo {
+    height: 35px;
+}
+
+
+.hero {
+    padding: 10px 0;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px ;
+}
+
+.di2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.di2 img {
+    max-width: 100px;
+   height: 45px;
+    color: #555;
+    transition: opacity 0.3s ease;
+    margin-bottom: 90px;
+}
+
+.hp{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.hp h1{
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #B9FF66;
+    padding: 8px;
+    border-radius: 12px;
+    margin-left: 5%;
+}
+.hp p{
+    width: 39%;
+    color: #000;
+}
+/* Section layout using FLEX */
+.s2{
+  display:flex;
+  flex-wrap:wrap;
+  gap:25px;
+  padding:50px;
+  max-width:1100px;
+  margin:auto;
+  background:white;
+  justify-content:center;
+}
+
+/* Card style */
+.card{
+  padding:25px;
+  border-radius:18px;
+  flex:0 0 45%; /* 2 cards per row */
+  min-height:250px;
+  width: 4000px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  font-family: Arial, sans-serif;
+  box-shadow:1px 5px 2px #000;
+  border: 1.2px solid #000;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+/* Card text */
+.card h2{
+  font-size:20px;
+  font-weight:700;
+  margin:0;
+  width: 40%;
+   border-radius: 12px;
+  background-color: #B9FF66;
+  padding: 3px;
+}
+
+.dark h2{
+  background-color: white;
+  color: #000;
+}
+
+.green h2{
+    background-color: white;
+  color: #000;
+}
+
+.card a{
+  font-size:14px;
+  text-decoration:none;
+  font-weight:600;
+  margin-top:20px;
+  display:inline-block;
+}
+
+/* Colors */
+.light{
+  background:#e1e0e0;
+  color:#111;
+}
+
+
+.light a{
+  color:#111;
+}
+
+.green{
+  background:#c6ff45;
+  color:#111;
+}
+
+.green a{
+  color:#111;
+}
+
+.dark{
+  background:#111;
+  color:#fff;
+}
+
+.dark a{
+  color:#c6ff45;
+}
+
+/* Mobile responsive */
+@media(max-width:700px){
+  .card{
+    flex:0 0 100%; 
+  }
+}
