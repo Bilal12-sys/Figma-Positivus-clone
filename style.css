@@ -14,7 +14,6 @@ body{
     height: 35px;
 }
 
-
 .hero {
     padding: 10px 0;
 }
@@ -23,24 +22,21 @@ body{
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
-
 
 .hero-text {
     font-size: 18px;
     color: #555;
-    margin-bottom: 30px;
+
     max-width: 500px;
 }
 
 .hero-img {
-
     max-width: 100%;
     height: auto;
-    margin-bottom: 40px ;
 }
+
 
 .di2 {
     display: flex;
@@ -1492,9 +1488,14 @@ b {
   
   
   .di2 {
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 5px;
     overflow: hidden;
+  }
+  .di2 image{
+    height: 20px;
+    width: 200px;
   }
   
   
@@ -1551,6 +1552,7 @@ b {
     padding: 20px;
     gap: 20px;
     overflow: hidden;
+    margin-bottom: 20px;
   }
   
   .graphic-side {
@@ -1613,6 +1615,16 @@ b {
     flex-direction: column;
     text-align: center;
   }
+
+  
+#btnn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btnn #btnnn{
+  width: 100%;
+}
   
   
   .submit-btn, .see-all-btn {
@@ -1629,14 +1641,19 @@ b {
     width: 100% !important;
   }
   
+
+  
   /* Hero */
   .hero-title {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.2;
+    text-align: center;
   }
   
   .hero-text {
-    font-size: 14px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 200;
   }
   
   
